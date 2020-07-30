@@ -8,7 +8,7 @@ class Ui_MainWindow(object):
     def connected(self):
         while True:
             try:
-                self.s.connect(('203.212.130.174', PORTNUM))
+                self.s.connect(('', PORTNUM))
                 break
             except:
                 pass
